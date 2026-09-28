@@ -24,26 +24,26 @@ void main () {
   // }
   //MODEL 2 
   // void main (){
-  // MODEL 1 
-  //   stdout.write('Panjang : ');
-  // var input1 = stdin.readLineSync()!;
-  // stdout.write('Lebar : ');
-  // var input2 = stdin.readLineSync()!;
-  // stdout.write('Tinggi : ');
-  // var input3 = stdin.readLineSync()!;
+  // MODEL 1 tanpa pengembalian nilai
+    stdout.write('Panjang : ');
+  var input1 = stdin.readLineSync()!;
+  stdout.write('Lebar : ');
+  var input2 = stdin.readLineSync()!;
+  stdout.write('Tinggi : ');
+  var input3 = stdin.readLineSync()!;
 
-  // num Volume = int.parse(input1) * int.parse (input2) * int.parse(input3);
-  // print('volume kotak adalah $Volume');
+  num Volume = int.parse(input1) * int.parse (input2) * int.parse(input3);
+  print('volume kotak adalah $Volume');
 
 
 
-  // MODEL 2
-    int volume (
-      int panjang,
-      int lebar,
-      int tinggi,
-    ){return panjang * lebar * tinggi;
-  } print (volume(10 , 5 , 2));
+  // MODEL 2 ada pengembalian nilai
+  //   int volume (
+  //     int panjang,
+  //     int lebar,
+  //     int tinggi,
+  //   ){return panjang * lebar * tinggi;
+  // } print (volume(10 , 5 , 2));
       
     
 
